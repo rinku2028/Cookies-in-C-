@@ -4,8 +4,14 @@ Cookies in C#
 Cookies is a small piece of information stored on the client machine. This file is located on client machines "C:\Document and Settings\Currently_Login user\Cookie" path.  Its is used to store user preference information like Username, Password,City and PhoneNo etc on client machines. We need to import namespace called  Systen.Web.HttpCookie before we use cookie.
  
 There are 2 types of Cookies
-1. Persist Cookie - A cookie has not have expired time Which is called as Persist Cookie
-2. Non-Persist Cookie - A cookie has expired time Which is called as Non-Persist Cookie
+1. Persistent Cookie - A cookie has not have expired time Which is called as Persist Cookie
+2. Non-Persistent Cookie - A cookie has expired time Which is called as Non-Persist Cookie
+
+1.Persistent Cookie-
+This types of cookies are permanently stored on user hard drive.Cookies which have an expiry date time are called persistence cookes. This types of cookies stored user hard drive permenently till the date time we set.
+
+2. Non-Persistent Cookie-
+This types of cookies are not permanently stored on user hard drive. It stores the information up the user accesng the same browser. When user close the browser the cookies will be automatically deleted.
 
 
 Cookie's common property
